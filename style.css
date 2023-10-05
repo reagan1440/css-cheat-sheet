@@ -1,8 +1,8 @@
 body {
 
 }
-header title {
-
+header {
+text-size-adjust: 50px;
 }
 nav {
 width: 100%;
