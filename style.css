@@ -2,7 +2,8 @@ body {
 
 }
 header title {
-
+    font-size:0% ;
+    font;
 }
 nav {
 width: 100%;
@@ -32,12 +33,12 @@ footer {
 }
 .row {
     display: flex;
-    flex-directions: row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .column{
     display: flex;
-    flex-directions: column
+    flex-direction: column;
 }
 .grid{
     display: gird;
@@ -55,8 +56,7 @@ footer {
     transition: all 0.5s ease-in-out;
 }
 
-.code-card:hover,
-.code-card:hover .card-header {
+.code-card:hover, .code-card:hover .card-header {
     box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1) .0 0 15px
     rgba(232, 102, 236, 1);
 }
